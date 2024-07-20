@@ -14,11 +14,10 @@
         <nav class="nav_menu" id="nav_menu">
             <script type="text/javascript" src="Menu.js"></script>
             <ul class="nav_menu" id="nav_menu" role="button" aria-label="material-symbols-outlined" data-toggle="dropdown" aria-expanded="false" aria-controls="dropdown" aria-selected="">
-                <div class="na_menu" id="na_menu">
-                    <ejs-tolbar [class]="dockToolbar" id="dockToolbar"(onclick)="toolbarCliked($event)">
-                        
-                    </ejs-tolbar>
-                </div>
+                <li draggable="true"><a href="#">HOME</a></li>
+                <ejs-tolbar [class]="dockToolbar" id="dockToolbar"(onclick)="toolbarCliked($event)">
+                    
+                </ejs-tolbar>
             </ul>
         </nav>
     </form>
