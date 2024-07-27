@@ -11,15 +11,16 @@
         <header class="borda" id="borda_navegation">
             <span class="material-symbols-outlined">menu</span>
         </header>
-        <nav class="nav_menu" id="nav_menu">
+        <menu id="menu_dropdown" aria> 
             <script type="text/javascript" src="Menu.js"></script>
             <ul class="nav_menu" id="nav_menu" role="button" aria-label="material-symbols-outlined" data-toggle="dropdown" aria-expanded="false" aria-controls="dropdown" aria-selected="">
-                <li draggable="true"><a href="#">HOME</a></li>
-                <ejs-tolbar [class]="dockToolbar" id="dockToolbar"(onclick)="toolbarCliked($event)">
-                    
-                </ejs-tolbar>
+                <li draggable="true"><a href="./Loja.html">HOME</a></li>
+                <li draggable="true">
+                    ROUPAS
+                    <div class="btn-group" draggable="true" aria-dropeffect=""
+                </li>
             </ul>
-        </nav>
+        </menu>
     </form>
 </body>
 </html>
