@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+html{
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+header, 
+.borda{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px black;
+}
+.borda{
+    background-color: transparent;
+    border: none;
+    color: black;
+    margin-top: -1.5px;;
+}
+header,
+.borda{
+    display: flex;
+    align-items: center;
+    border-color: black;
+    width: 204vh;
+    background-color: dimgrey;
+}
+
+header,
+.borda{
+    border: 1px solid black;
+    position: relative;
+    border-width: 20px;
+}
