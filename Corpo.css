@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+html{
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+/*Cabeçalho*/
+header,
+.borda{
+    display: block;
+    width: 97%;
+    max-width: 97% !important;
+    align-items: center;
+    background-color: orange;
+    justify-content: center; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Rodape*/
+footer,
+.rodape{
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-width: 100% !important;
+    align-items: center;
+    background-color: orange;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+}
+.rodape{
+    display: block;
+    
+}
